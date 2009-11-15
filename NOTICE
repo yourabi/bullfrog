@@ -1,0 +1,9 @@
+==============================================================
+Bullfrog Project http://github.com/yourabi/bullfrog
+==============================================================
+
+This product uses the python-memcached library created by tummy.com
+http://www.tummy.com/Community/software/python-memcached/
+
+This product uses the cmemcache library created by Gijsbert de Haan
+http://gijsbert.org/cmemcache

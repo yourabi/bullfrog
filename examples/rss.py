@@ -17,9 +17,7 @@
 """
 import os,sys
 from xml.dom.minidom import parse, parseString
-
-import pathsetup
-from client import ClientManager, Request
+from bullfrog.client import ClientManager, Request
 
 # Bullfrog Request
 print "Create Client Manager"

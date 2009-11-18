@@ -14,7 +14,7 @@ import re
 
 from ftplib import FTP
 from urlparse import urlparse
-from backend import Backend
+from bullfrog.backend import Backend
 
 class Ftp(Backend):
     

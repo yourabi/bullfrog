@@ -25,7 +25,7 @@ import logging
 import re
 import socket
 
-from backend import Backend
+from bullfrog.backend import Backend
 
 class Http(Backend):
 

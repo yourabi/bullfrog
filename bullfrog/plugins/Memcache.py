@@ -20,7 +20,7 @@ except ImportError:
     import pickle
 
 
-from backend import Backend
+from bullfrog.backend import Backend
 
 
 # Optional MC library.

@@ -147,7 +147,8 @@ class ClientManager(object):
             # Make it easy to get requests by name
             if hasattr(request, 'key'):
                 self.requests_by_key[request.key] = request
-                            
+
+        self.cache.mc.disconnect_all()
         return self.requests
 
 

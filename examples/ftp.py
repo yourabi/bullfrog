@@ -15,7 +15,9 @@
  The goal of this file is to serve as a functional example bullfrog ftp plugin.
 """
 
-from bullfrog.client import ClientManager, Request
+import pathsetup
+from client import ClientManager, Request
+
 client = ClientManager()
 
 kernel_archive_readme = Request(

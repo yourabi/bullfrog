@@ -1,4 +1,9 @@
-
+*~
+*.pyc
+*.pyo
+*.pyt
+*.pytc
 *.pyc
 *.swp
 .DS_Store
+docs/_build
